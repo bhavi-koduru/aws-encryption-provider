@@ -18,7 +18,7 @@ The following guide makes several assumptions:
 * You have already read the Kubernetes documentation page [Using a KMS provider for data encryption](https://kubernetes.io/docs/tasks/administer-cluster/kms-provider/)
 * The AWS KMS encryption provider will need AWS credentials configured in order to call KMS APIs. You can read more about providing credentials by reading the [AWS SDK documentation](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials) on configuring your application.
 
-### Setup
+#### Setup
 
 First you'll need to create a KMS master key. For more details you can read the [KMS documentation on creating a key](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html). Check the [KMS pricing page](https://aws.amazon.com/kms/pricing/) for up-to-date pricing information.
 
